@@ -4,8 +4,6 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-  <remote  name="ChameleonOS"
-           fetch="https://github.com/" />
 
   <remote  name="github"
            fetch=".."
@@ -470,10 +468,4 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-  <!--< Default LionOS settings > -->
-  <project name="ChameleonOS/Superuser" path="external/koush/Superuser"remote="ChameleonOS" revision="kitkat-staging"  />
-  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
-  <project name="ChameleonOS/android_packages_apps_PermissionsManager" remote="ChameleonOS" revision="kitkat-staging"  />
-  <project name="ChameleonOS/android_system_cpufrequtils" remote="ChameleonOS" revision="kitkat-staging"  />
 </manifest>
-
